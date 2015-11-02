@@ -1,0 +1,556 @@
+/*
+
+Theme Name: apt2014
+Theme URI: http://dev.aptitudehealth.net/
+Description: This wordpress theme was created for Aptitude Health.
+Version: 1.0
+Author: Aptitude Health
+Author URI: http://dev.aptitudehealth.net/
+Tags: Aptitude Health
+
+	MDistinct v1.0
+    This theme was designed and built by Aptitude Health,
+	http://dev.aptitudehealth.net/
+*/
+@import url('reset.css');
+
+#slide {
+	max-height: 450px;
+	width: 100%;
+	overflow: hidden;
+}
+#wrappernav {
+	min-height: 55px;
+	background: #0083a8;
+	border-top: #276aa4 5px solid;
+	float: left;
+	width: 100%;
+}
+#nav {
+	
+	display: block;
+	text-align: center;
+}
+
+
+#nav ul li {
+	
+	list-style: none;
+	display: inline-block;
+	
+}
+
+#nav li:first-child a {
+	
+	background-image: url('../images/AptitudeLogo_white.png');
+	background-size: 260px;
+	background-repeat: no-repeat;
+	padding: 0;
+	text-indent: -9999px;
+	display: inline-block;
+	height: 56px;
+	width: 260px;	
+	margin-bottom: 9px;
+	margin-right: 20px;
+	
+}
+
+#nav li:first-child a:hover {
+	
+	background-image: url('../images/AptitudeLogo_white.png');
+	background-size: 260px;
+	background-repeat: no-repeat;
+	background-color: #0083a8;
+	margin-bottom: 9px;
+	margin-right: 20px;
+	opacity: 0.7;
+	
+}
+
+
+.navcopy {
+	color: #fff;
+	font-size: 20px
+}
+
+.navcopy li a {
+	
+	color: #fff;
+	font-family: Arial;
+	text-decoration: none;
+	 float: left; 
+	/* display: block; */
+	line-height: 1.9;	
+	position: relative;
+	overflow: auto;	
+	padding: 9px 29px 25px 26px;	
+
+}
+
+.navcopy li a:hover {
+	background: #276aa4;
+	padding: 9px 29px 25px 26px;
+}
+
+
+.bottomnavcopy {
+	color: #276aa4;
+	font-size: 20px
+}
+
+#bottomnav {
+	
+	display: block;
+	text-align: center;
+}
+#bottomnav li {
+	list-style: none;
+	position: relative;
+	display: inline-block;
+	font-size: 14px;
+	font-weight: bold;
+	/*padding: 0px 0px 0px 274px;	*/
+}
+
+#bottomnav li a {
+	
+	color: #276aa4;
+	font-family: Arial;
+	text-decoration: none;
+	float: left; 	
+	line-height: 1.9;	
+	position: relative;
+	overflow: hidden;	
+	padding: 1px 35px 10px 18px;
+	border-left: 2px #276aa4 solid;
+	height: 15px;
+	
+}
+
+#bottomnav li:first-child a {
+	
+	border-left: none;
+	
+}
+
+#bottomnav li a:hover {
+	
+	padding: 1px 35px 10px 18px;
+
+}
+#content {
+	max-width: 1170px;	
+	margin: 0 auto;	
+}
+
+.maincopy {
+	font-family: Arial;
+	line-height: 23px;
+	font-weight: 600;
+	font-size: 20px;
+}
+
+footer {
+	text-align: center;
+	float: none;
+	width: 100%;
+	max-width: 1170px;
+	margin: 0 auto !important;
+	padding-top: 75px !important;	
+	display: block;
+}
+
+.bottomnav ul a {
+	color: #0083a8;
+	font-size: 14px;
+}
+
+#copyright {
+	font-family: Arial;
+	color: #276aa4;
+	font-size: 12px;
+	width: 100%;
+	float: left;
+	/* position: relative; */
+	/* top: 44px; */
+	padding: 10px;
+	margin-top: 78px;
+}
+
+.pagetitle {
+	font-size: 34px;
+	text-decoration: none;
+	color: #276aa4;
+	text-align: center;
+	background: #f4f4f4;
+	position: relative;
+	left: 441px;
+	top: -6px;
+	padding-left: 25px;
+	padding-right: 25px;
+	
+}
+
+#pagetitlebar {
+	margin: 10px 10px 0 0;
+	background: #e8e8e8;
+	height: 6px;
+	border-bottom: 0;
+	margin-top: 24px;
+	margin-bottom: 103px;
+	clear: both;
+	position: relative;
+	top: 63px;
+}
+
+#team {
+	width: 100%;
+	max-width:1170px;	
+	margin-bottom: 87px;
+}
+
+#company {
+	width: 100%;
+	max-width:1170px;	
+	margin-bottom: 87px;
+	text-align: center;
+}
+#member li{
+	width: 31%;
+	/* background: red; */
+	display: block;
+	float: left;
+	margin: 6px 7px 4px 16px;
+}
+
+#member li img {
+	width: 100%;
+	height: auto;
+}
+
+#membercompany > li{
+	width: 31%;
+	/* background: red; */
+	display: block;
+	float: left;
+	margin: 6px 7px 4px 16px;
+}
+
+#membercompany li > img {
+	width: 100%;
+	height: auto;
+}
+
+#membercompany li p {
+	display: inline;
+}
+
+#content > #company > #membercompany li > .teamname {
+	font-size: 40px;
+}
+
+
+.biobox {
+	background: white;
+	font-size: 14px;
+	text-align: center;
+	padding: 20px;
+	/*height: 284px;*/
+	-webkit-box-shadow: 5px 5px 0px 0px rgba(232,232,232,1);
+	-moz-box-shadow: 5px 5px 0px 0px rgba(232,232,232,1);
+	box-shadow: 5px 5px 0px 0px rgba(232,232,232,1);
+}
+
+.biobox2 {
+	background: white;
+	font-size: 14px;
+	font-family: Arial;
+	padding: 20px;
+	/* height: auto; */
+	-webkit-box-shadow: 5px 5px 0px 0px rgba(232,232,232,1);
+	-moz-box-shadow: 5px 5px 0px 0px rgba(232,232,232,1);
+	box-shadow: 5px 5px 0px 0px rgba(232,232,232,1);
+	position: relative;
+	top: 121px;
+}
+
+.bioboxcompany {	
+	font-size: 14px;
+	font-family: Arial;
+	padding: 20px;	
+	-moz-box-shadow: 5px 5px 0px 0px rgba(232,232,232,1);	
+	position: relative;
+	text-align: center;
+	/*top: 13px;*/
+}
+
+.bioboxcompany img {
+	width: 100%;
+	height: auto;
+}
+
+.bioboxcompany p {
+	display: block;
+}
+
+
+#content > #company > ul li img {
+	width: 100%;
+	max-width: 175px;
+	vertical-align: middle;	
+	display: inline-block;
+	vertical-align: middle;	
+	position: relative;
+	top: 22px;	
+	height: initial;
+	margin-top: 33px;
+}
+
+
+.companylogo {
+	width: 100%;
+	height: 150px;
+}
+/*
+.companylogo img:first-child {
+	height: 300px;
+	border: red 1px solid;
+}*/
+
+.biobox2 > .teamname {
+	font-size: 20px;
+	color: #8cc63e;
+	text-align: left;
+	display: inline-block;
+	margin-top: -42px;
+	margin-bottom: 18px;
+	overflow: hidden;
+	position: relative;
+	top: -38px;
+}
+
+.biobox2 p {
+	position: relative;
+	top: -39px;
+}
+
+.bio {
+	width: 100%;
+}
+
+.contactform {
+	width: 100%;
+	text-align: center;	
+	clear: both;
+	padding-top: 20px;
+
+}
+
+.titlehighlights {
+	width: 100%;
+	font-size: 18px;	
+	color: #8cc63e;
+	margin-top: 18px;
+	margin-bottom: 10px;
+}
+
+.highlights {
+	width: 100%;			
+	text-align: left;
+}
+
+
+.readbtn {
+
+	border: none;
+	margin: 0;
+	font-size: 16px;
+	font-weight: 600;
+	font-family: Open sans, Arial;
+	white-space: nowrap;
+	cursor: pointer;
+	display: inline-block;
+	border-width: 3px;
+	border-style: solid;
+	vertical-align: top;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	-webkit-box-align: stretch;
+	-moz-box-align: stretch;
+	box-align: stretch;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-transition: all 0.15s ease-in-out;
+	-moz-transition: all 0.15s ease-in-out;
+	-o-transition: all 0.15s ease-in-out;
+	transition: all 0.15s ease-in-o;			
+	margin-top: 20px;
+	background: none;
+	border-color: #0083a8;
+	color: #0083a8;
+	height: 46px;
+	line-height: 46px;
+	padding: 0 50px;
+	text-decoration: none;
+	/*position: relative;
+	bottom: -47px;*/
+}
+
+.readbtn:hover {
+
+	border: none;
+	margin: 0;
+	font-size: 16px;
+	font-weight: 600;
+	font-family: Open sans, Arial;
+	white-space: nowrap;
+	cursor: pointer;
+	display: inline-block;
+	border-width: 3px;
+	border-style: solid;
+	vertical-align: top;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	-webkit-box-align: stretch;
+	-moz-box-align: stretch;
+	box-align: stretch;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-transition: all 0.15s ease-in-out;
+	-moz-transition: all 0.15s ease-in-out;
+	-o-transition: all 0.15s ease-in-out;
+	transition: all 0.15s ease-in-o;			
+	margin-top: 20px;
+	background: #0083a8;
+	border-color: #0083a8;
+	color: #fff;
+	height: 46px;
+	line-height: 46px;
+	padding: 0 50px;
+	text-decoration: none;
+	/*position: relative;
+	bottom: -47px;*/
+}
+
+.sendbtn {
+
+	border: none;
+	margin: 0;
+	font-size: 16px;
+	font-weight: 600;
+	font-family: Open sans, Arial;
+	white-space: nowrap;
+	cursor: pointer;
+	display: inline-block;	
+	vertical-align: top;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	-webkit-box-align: stretch;
+	-moz-box-align: stretch;
+	box-align: stretch;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-transition: all 0.15s ease-in-out;
+	-moz-transition: all 0.15s ease-in-out;
+	-o-transition: all 0.15s ease-in-out;
+	transition: all 0.15s ease-in-o;			
+	margin-top: -1px;
+	background: #0083a8;	
+	color: #fff;
+	height: 46px;
+	width: 46%;
+	line-height: 46px;
+	padding: 0 50px;
+	text-decoration: none;	
+	margin-left: 15px;
+	/*position: relative;
+	bottom: -47px;*/
+}
+
+.sendbtn:hover {
+
+	border: none;
+	margin: 0;
+	font-size: 16px;
+	font-weight: 600;
+	font-family: Open sans, Arial;
+	white-space: nowrap;
+	cursor: pointer;
+	display: inline-block;	
+	vertical-align: top;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	-webkit-box-align: stretch;
+	-moz-box-align: stretch;
+	box-align: stretch;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-transition: all 0.15s ease-in-out;
+	-moz-transition: all 0.15s ease-in-out;
+	-o-transition: all 0.15s ease-in-out;
+	transition: all 0.15s ease-in-o;			
+	margin-top: -1px;
+	background: #00a0af ;	
+	color: #fff;
+	height: 46px;
+	width: 46%;
+	line-height: 46px;
+	padding: 0 50px;
+	text-decoration: none;
+	margin-left: 15px;
+	
+	/*position: relative;
+	bottom: -47px;*/
+}
+.teamname {
+	font-size: 20px;
+	color: #8cc63e;
+	text-align: center;
+	margin-top: 15px;
+	margin-bottom: 19px;
+}
+
+.teamname p {
+	color: #727272;
+	font-size: 17px;
+}
+
+.contactlabel {
+	width: 49%;
+	float: left;
+	line-height: 1.9;
+	padding: 10px;
+	margin-bottom: 19px;
+	font-size: 13px;
+	font-family: Arial;
+}
+
+.contactlabel2 {
+	width: 44%;
+	line-height: 1.9;
+	padding: 10px;
+	margin-bottom: 19px;
+	margin-left: 10px;
+	font-size: 13px;
+	font-family: Arial;
+}
